@@ -38,7 +38,7 @@ const Register = () => {
   return (
     <div className="register">
       <h1>Register</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           required
           type="text"
@@ -78,7 +78,7 @@ const Register = () => {
           </div>
         </div>
 
-        <button className="register-button" onClick={handleSubmit}>
+        <button className="register-button" type="submit" >
           Register
         </button>
         {error && <p>{error}</p>}
