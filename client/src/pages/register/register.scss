@@ -1,0 +1,74 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #b9e7e7;
+
+  h1 {
+    font-size: 20px;
+    color: teal;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 4px;
+
+    input {
+      padding: 5px;
+      border: none;
+      border-bottom: 1px solid grey;
+      outline: none;
+    }
+
+    .passwordContainer {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 100%;
+        padding-right: 30px;
+      }
+      .show-password {
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+
+        img {
+          height: 15px;
+          width: 15px;
+          display: flex;
+        }
+      }
+    }
+
+    .register-button {
+      padding: 10px;
+      border: none;
+      background-color: teal;
+      color: white;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 12px;
+      text-align: center;
+      color: rgb(172, 45, 45);
+      text-align: center;
+    }
+
+    span {
+      font-size: 10px;
+      text-align: center;
+
+      Link {
+      }
+    }
+  }
+}

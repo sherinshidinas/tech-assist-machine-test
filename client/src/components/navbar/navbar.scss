@@ -1,0 +1,28 @@
+.navbar {
+  .container {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b9e7e7;
+
+    .logo {
+      img {
+        height: 40px;
+      }
+    }
+
+    .links {
+      button {
+        padding: 5px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        background-color: teal;
+        color: white;
+        margin-right: 10px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+  }
+}
