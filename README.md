@@ -65,7 +65,7 @@ Installation
 
 Clone the repository:
   
-   git clone https://github.com/yourusername/secure-saas-user-management-system.git
+   git clone https://github.com/sherinshidinas/tech-assist-machine-test.git
    cd secure-saas-user-management-system
  
 
