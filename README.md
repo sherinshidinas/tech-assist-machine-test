@@ -66,6 +66,8 @@ Installation
 Clone the repository:
   
    git clone https://github.com/sherinshidinas/tech-assist-machine-test.git
+
+   
    cd secure-saas-user-management-system
  
 
@@ -104,9 +106,6 @@ Start the frontend:
    cd ../frontend
    npm start
   
-Access the application:
-
-   - Open your browser and navigate to `http://localhost:3000`
 
 Deployment
 
