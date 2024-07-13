@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post("/auth/login", inputs);
-      // localStorage.setItem("currentUser", JSON.stringify(res.data));
+      alert(res.data.message);
       navigate("/");
     } catch (error) {
       SetError(error.response.data);
@@ -36,7 +36,7 @@ const Login = () => {
   return (
     <div className="login">
       <h1>Login</h1>
-      <form onSubmit={handleSubmit} >
+      <form onSubmit={handleSubmit}>
         <input
           required
           type="text"
@@ -63,7 +63,7 @@ const Login = () => {
           </div>
         </div>
 
-        <button className="login-button"  type="submit">
+        <button className="login-button" type="submit">
           Login
         </button>
         {error && <p>{error}</p>}
